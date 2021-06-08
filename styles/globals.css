@@ -16,3 +16,11 @@ a {
   background-color: hotpink;
 }
 
+.extraGreen {
+  color: chartreuse;
+}
+
+.stayput {
+  position: fixed;
+  top: 0
+}
