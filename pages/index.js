@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* <div className="container secondary" id="tech">
+            {/* <div className="container secondary" >
                 <h1>Tech Skills</h1>
                 <div>
                     D3.js, Javascript, React.js, HTML, CSS, 
@@ -54,8 +54,8 @@ export default function Home() {
                             className="pic"
                             src='/spirographer.png'
                             alt='a picture of Spirographer app, a spirograph generator'
-                            height="394"
-                            width="700"
+                            height="1080"
+                            width="1920"
                         />
                     </div>
                     <div className="project-details">
@@ -80,7 +80,7 @@ export default function Home() {
                             inputs to make their own. There are many ways to manipulate and play with 
                             the Spirographer: change colors, add layers and download your creation! 
                         </div>
-                        <div>
+                        <div className="tech">
                             Front-end application built using D3.js, Javascript, HTML, CSS and Skeleton
                         </div>
                          
@@ -93,8 +93,8 @@ export default function Home() {
                             className="pic"
                             src='/mastermind.png'
                             alt='a picture of Mastermind, a game that uses logical deduction'
-                            height="394"
-                            width="700"
+                            height="1080"
+                            width="1920"
                         />
                     </div>
                     <div className="project-details">
@@ -117,7 +117,7 @@ export default function Home() {
                             The game is played by selecting colors and checking them against the secret code. 
                             Each time a player guesses, they are given feedback about their combination. 
                         </div>
-                        <div>
+                        <div className="tech">
                             Front-end application built using, Javascript, HTML, and CSS 
                         </div>
                     </div>
@@ -129,8 +129,8 @@ export default function Home() {
                             className="pic"
                             src='/kitchen_sink.png'
                             alt='a picture of Kitchen Sink app, an app that searches for recipes'
-                            height="394"
-                            width="700"
+                            height="1080"
+                            width="1920"
                         />
                     </div>
                     <div className="project-details">
@@ -155,7 +155,7 @@ export default function Home() {
                             leave reviews with ratings and comments. Recipes that have been reviewed 
                             appear on the homepage for other users to peruse and try. 
                         </div>
-                        <div>
+                        <div className="tech">
                             Full stack application built using Javascript, EJS, Node.js, Express, PostgreSQL, SQL/Sequelize, Axios and CSS
                         </div>
                     </div>
@@ -167,8 +167,8 @@ export default function Home() {
                             className="pic"
                             src='/trip_tracker.png'
                             alt='a picture of Trip Tracker app'
-                            height="394"
-                            width="700"
+                            height="1080"
+                            width="1920"
                         />
                     </div>
                     <div className="project-details">
@@ -192,7 +192,7 @@ export default function Home() {
                             trips that they are planning. Each trip includes all the tools necessary to stay organized, 
                             think ahead and find information relevant to their travel needs.  
                         </div>
-                        <div>
+                        <div className="tech">
                             Full stack application built using Javascript, React.js, Node.js, Express, Mongo/Mongoose, Axios and CSS
 
                         </div>
@@ -216,7 +216,7 @@ export default function Home() {
                     <div className="deets">
                         <ul>
                             <div className="bumper">
-                                E-mail: SarahMarieCoogan@gmail.com
+                                E-MAIL: SarahMarieCoogan@gmail.com
                             </div>
                             <div className="bumper">
                                 <Link href='https://github.com/wonkatin'>
