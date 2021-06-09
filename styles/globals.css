@@ -70,7 +70,8 @@ div {
 
 .name-blast{
   font-size: 10rem;
-  font-weight: bold
+  font-weight: bold;
+  margin-top: 68px
 }
 
 .job-title {
@@ -131,6 +132,27 @@ div {
 }
 .bumper {
   margin-bottom: 10px;
+}
+
+@media (max-width: 1600px) {
+  .name-blast{
+    font-size: 7rem;
+    font-weight: bold
+  }
+}
+@media (max-width: 1150px) {
+  .name-blast{
+    font-size: 5rem;
+    font-weight: bold
+  }
+}
+@media (max-width: 800px) {
+  .name-blast {
+    font-size: 4rem
+  }
+  .job-title {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 650px) {
   .name-blast{
