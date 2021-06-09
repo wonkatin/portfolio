@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -8,7 +8,7 @@
   margin: 5px
 }
 
-/* .main {
+ .main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
