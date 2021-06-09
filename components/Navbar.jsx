@@ -6,9 +6,9 @@ export default function Navbar() {
             <Link href='#home' >
                 <a>Home</a>
             </Link>
-            <Link href='#tech'>
+            {/* <Link href='#tech'>
                 <a>Tech</a>
-            </Link>
+            </Link> */}
             {/* <Link href='#skillz'>
                 <a>Skills</a>
             </Link> */}

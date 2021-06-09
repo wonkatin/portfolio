@@ -14,9 +14,24 @@ export default function Home() {
             <div className="container" id="home">
               <div className="name-blast">Sarah Marie Coogan</div>
               <p className="job-title">Data Visualization Engineer</p>
+              <div className="hello-world">
+              Hello! I am Sarah Marie, aspiring Data Visualization Engineer, 
+              with a versatile background in Philosophy, graphic design, and management. 
+              My superpower is finding direct relatable ways to communicate complex ideas 
+              and theories to ordinary folks. Right now, I am on an exploratory journey, 
+              seeking new challenges. I am excited to learn creative ways to transform data 
+              into visually meaningful stories and solutions.
+              </div>
+              <h1>Tech Skills</h1>
+                <div id="skillz">
+                    D3.js, Javascript, React.js, HTML, CSS, 
+                    Bootstrap, Skeleton, Node.js, Express.js, Python, 
+                    SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, Heroku, Git, GitHub
+
+                </div>
             </div>
 
-            <div className="container secondary" id="tech">
+            {/* <div className="container secondary" id="tech">
                 <h1>Tech Skills</h1>
                 <div>
                     D3.js, Javascript, React.js, HTML, CSS, 
@@ -24,7 +39,7 @@ export default function Home() {
                     SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, Heroku, Git, GitHub
 
                 </div>
-            </div>
+            </div> */}
 
             {/* <div className="container secondary" id="skillz">
                 <h1>Skills</h1>
@@ -35,6 +50,7 @@ export default function Home() {
                 <div className="content">
                     <div className="img">
                         <Image
+                            loading="eager"
                             className="pic"
                             src='/spirographer.png'
                             alt='a picture of Spirographer app, a spirograph generator'
@@ -73,7 +89,8 @@ export default function Home() {
                 <div className="content">
                     <div className="img">
                         <Image
-                            cclassName="pic"
+                            loading="eager"
+                            className="pic"
                             src='/mastermind.png'
                             alt='a picture of Mastermind, a game that uses logical deduction'
                             height="394"
@@ -108,6 +125,7 @@ export default function Home() {
                 <div className="content">
                     <div className="img">
                         <Image
+                            loading="eager"
                             className="pic"
                             src='/kitchen_sink.png'
                             alt='a picture of Kitchen Sink app, an app that searches for recipes'
@@ -145,6 +163,7 @@ export default function Home() {
                 <div className="content">
                     <div className="img">
                         <Image
+                            loading="eager"
                             className="pic"
                             src='/trip_tracker.png'
                             alt='a picture of Trip Tracker app'
@@ -181,12 +200,13 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="container secondary">
+            <div className="container secondary" id="contact">
                 <h1>Contact Me!</h1>
                 <div className="content">
                     <div className="me">
 
                         <Image
+                            loading="eager"
                             src='/sarah.png'
                             alt='a picture of Sarah Marie Coogan'
                             height={300}
@@ -195,29 +215,29 @@ export default function Home() {
                     </div>
                     <div className="deets">
                         <ul>
-                            <li>
+                            <div className="bumper">
                                 E-mail: SarahMarieCoogan@gmail.com
-                            </li>
-                            <li>
+                            </div>
+                            <div className="bumper">
                                 <Link href='https://github.com/wonkatin'>
                                     <a target="_blank" rel="noopener noreferrer">GitHub</a>
                                 </Link> 
-                            </li>
-                            <li>
+                            </div>
+                            <div className="bumper">
                                 <Link href='https://www.linkedin.com/in/sarahmariecoogan/'>
                                     <a target="_blank" rel="noopener noreferrer">LinkedIn</a>
                                 </Link>
-                            </li>
-                            <li>
+                            </div>
+                            <div className="bumper">
                                 <Link href='https://docs.google.com/document/d/1ONbbax_CHdMejgWQ9P9cy8yW5rmX68lCNmk09k7JOa0/edit?usp=sharing'>
                                     <a target="_blank" rel="noopener noreferrer">Resume</a>
                                 </Link>
-                            </li>
-                            {/* <li>
+                            </div>
+                            {/* <div className="bumper">
                                 <Link href='https://codepen.io/wonkatin'>
                                     <a target="_blank" rel="noopener noreferrer">Code Pen</a>
                                 </Link>
-                            </li> */}
+                            </div> */}
                         </ul>
                     </div>
                 </div>
