@@ -9,10 +9,126 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  font-weight: bold;
+}
+
+nav a {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: chartreuse;
 }
 
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background-color: hotpink;
 }
 
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 100%
+} 
+
+.secondary {
+  justify-content: flex-start;
+  padding-top: 53px
+}
+
+.extraGreen {
+  color: chartreuse;
+}
+
+.stay-put {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: chartreuse;
+  color: black;
+  font-size: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.name-blast{
+  font-size: 4rem;
+  font-weight: bold
+}
+
+.job-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.img {
+  margin-left: 10%;
+  margin-right: 50px;
+  width: 50%
+}
+.me {
+  margin-left: 10%;
+  margin-right: 75px;
+}
+.project-details {
+  display: flex;
+  flex-direction: column; 
+  padding-top: 10px;
+  margin-right: 10%;
+  width: 50%
+}
+.deets {  
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%
+}
+.description {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+@media (max-width: 650px) {
+  .name-blast{
+    font-size: 3rem;
+  }
+  /* .job-title {
+    font-size: 1rem;
+  } */
+}
+
+@media (max-width: 499px) {
+  .job-title {
+    font-size: 1.5rem;
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 360px) {
+  .stay-put {
+    font-size: 1rem;
+  }
+  /* nav a {
+    margin-left: 10px;
+    margin-right: 20px;
+  } */
+}

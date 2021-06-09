@@ -1,13 +1,14 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 5px
 }
 
-.main {
+ .main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -112,11 +113,12 @@
 
 .logo {
   height: 1em;
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-}
+
+} */
