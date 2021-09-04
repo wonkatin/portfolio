@@ -24,9 +24,9 @@ export default function Home() {
               </div>
               <h1>Tech Skills</h1>
                 <div id="skillz">
-                    D3.js, Javascript, React.js, HTML, CSS, 
-                    Bootstrap, Skeleton, Node.js, Express.js, Python, 
-                    SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, Heroku, Git, GitHub
+                Javascript, React.js, CSS, HTML, D3.js, Node.js, Express.js, 
+                Python, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, 
+                Axios, Next.js, EJS, Bootstrap, Skeleton, Heroku, Git, GitHub
 
                 </div>
             </div>
