@@ -12,12 +12,16 @@ a {
   font-weight: bold;
   letter-spacing: 1px;
   text-shadow: 2px 2px 2px chartreuse;
+  font-size: 1.25rem;
 }
 a:hover {
   color: white;
 }
 h1 {
   letter-spacing: 1px;
+}
+h2 {
+  font-size: 1.5rem;
 }
 nav a {
   margin-right: 5px;
@@ -64,7 +68,7 @@ div {
   justify-content: center;
   background-color: chartreuse;
   color: black;
-  font-size: 1.25rem;
+  
   flex-wrap: wrap;
 }
 
@@ -109,6 +113,11 @@ div {
   margin-left: 10%;
   margin-right: 75px;
 }
+.project-name {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
 .project-details {
   display: flex;
   flex-direction: column; 
@@ -131,14 +140,19 @@ div {
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 1.5rem;
+  font-size: 1.15rem;
+ 
 }
 .tech {
   line-height: 1.5rem;
+  font-size: 1.15rem;
 }
 .bumper {
   margin-bottom: 20px;
 }
-
+.email {
+  font-size: 1.15rem;
+}
 @media (max-width: 1600px) {
   .name-blast{
     font-size: 7rem;
@@ -167,10 +181,17 @@ div {
     margin-right: 0;
     width: 90%;
   }
+  .project-name {
+    text-align: left;
+  }
   .project-details {
     margin-left: 0;
     margin-right: 0;
+    padding-top: 20px;
     width: 90%
+  }
+  .me {
+    margin: 0px
   }
   .links {
     
