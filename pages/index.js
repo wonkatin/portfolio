@@ -17,7 +17,7 @@ export default function Home() {
               <div className="hello-world">
               Hello! I am Sarah Marie: Chicago based, full-stack web developer and 
               software engineer with a versatile background in Philosophy, graphic 
-              design, and team management. My superpowers included problem solving 
+              design, and team management. My superpowers included: problem solving 
               under pressure, hyper attention to detail, and communicating complex 
               ideas in understandable, relatable ways. I am excited by lifelong 
               learning and currently seeking opportunities to expand and strengthen 
@@ -50,6 +50,7 @@ export default function Home() {
                 <h1>Projects</h1>
                 <div className="content">
                     <div className="img">
+                        <h2 className="project-name">Spirographer</h2>
                         <Image
                             loading="eager"
                             className="pic"
@@ -89,6 +90,7 @@ export default function Home() {
                 </div>
                 <div className="content">
                     <div className="img">
+                        <h2 className="project-name">Mastermind</h2>
                         <Image
                             loading="eager"
                             className="pic"
@@ -114,7 +116,7 @@ export default function Home() {
 
                         </div>
                         <div className="description">
-                            Master Mind is a deductive reasoning game. The player’s task is to guess the secret code using logical deduction. 
+                            Mastermind is a deductive reasoning game. The player’s task is to guess the secret code using logical deduction. 
                             The game is played by selecting colors and checking them against the secret code. 
                             Each time a player guesses, they are given feedback about their combination. 
                         </div>
@@ -125,6 +127,7 @@ export default function Home() {
                 </div>
                 <div className="content">
                     <div className="img">
+                        <h2 className="project-name">Kitchen Sink</h2>
                         <Image
                             loading="eager"
                             className="pic"
@@ -163,6 +166,7 @@ export default function Home() {
                 </div>
                 <div className="content">
                     <div className="img">
+                        <h2 className="project-name">Trip Tracker</h2>
                         <Image
                             loading="eager"
                             className="pic"
@@ -216,7 +220,7 @@ export default function Home() {
                     </div>
                     <div className="deets">
                         <ul>
-                            <div className="bumper">
+                            <div className="bumper email">
                                 E-MAIL: SarahMarieCoogan@gmail.com
                             </div>
                             <div className="bumper">
