@@ -13,20 +13,21 @@ export default function Home() {
 
             <div className="container" id="home">
               <div className="name-blast">Sarah Marie Coogan</div>
-              <p className="job-title">Data Visualization Engineer</p>
+              <p className="job-title">Software Engineer</p>
               <div className="hello-world">
-              Hello! I am Sarah Marie, aspiring Data Visualization Engineer, 
-              with a versatile background in Philosophy, graphic design, and management. 
-              My superpower is finding direct relatable ways to communicate complex ideas 
-              and theories to ordinary folks. Right now, I am on an exploratory journey, 
-              seeking new challenges. I am excited to learn creative ways to transform data 
-              into visually meaningful stories and solutions.
+              Hello! I am Sarah Marie: Chicago based, full-stack web developer and 
+              software engineer with a versatile background in Philosophy, graphic 
+              design, and team management. My superpowers included problem solving 
+              under pressure, hyper attention to detail, and communicating complex 
+              ideas in understandable, relatable ways. I am excited by lifelong 
+              learning and currently seeking opportunities to expand and strengthen 
+              my engineering toolkit.
               </div>
               <h1>Tech Skills</h1>
                 <div id="skillz">
-                    D3.js, Javascript, React.js, HTML, CSS, 
-                    Bootstrap, Skeleton, Node.js, Express.js, Python, 
-                    SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, Heroku, Git, GitHub
+                Javascript, React.js, CSS, HTML, D3.js, Node.js, Express.js, 
+                Python, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, 
+                Axios, Next.js, EJS, Bootstrap, Skeleton, Heroku, Git, GitHub
 
                 </div>
             </div>
