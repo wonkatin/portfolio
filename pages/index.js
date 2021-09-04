@@ -13,7 +13,7 @@ export default function Home() {
 
             <div className="container" id="home">
               <div className="name-blast">Sarah Marie Coogan</div>
-              <p className="job-title">Data Visualization Engineer</p>
+              <p className="job-title">Software Engineer</p>
               <div className="hello-world">
               Hello! I am Sarah Marie, aspiring Data Visualization Engineer, 
               with a versatile background in Philosophy, graphic design, and management. 
