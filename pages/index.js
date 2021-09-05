@@ -17,7 +17,7 @@ export default function Home() {
               <div className="hello-world">
               Hello! I am Sarah Marie: Chicago based, full-stack web developer and 
               software engineer with a versatile background in Philosophy, graphic 
-              design, and team management. My superpowers included: problem solving 
+              design, and team management. My superpowers include: problem solving 
               under pressure, hyper attention to detail, and communicating complex 
               ideas in understandable, relatable ways. I am excited by lifelong 
               learning and currently seeking opportunities to expand and strengthen 
