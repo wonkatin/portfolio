@@ -15,13 +15,13 @@ export default function Home() {
               <div className="name-blast">Sarah Marie Coogan</div>
               <p className="job-title">Software Engineer</p>
               <div className="hello-world">
-              Hello! I am Sarah Marie: Chicago based, full-stack web developer and 
-              software engineer with a versatile background in Philosophy, graphic 
-              design, and team management. My superpowers include: problem solving 
-              under pressure, hyper attention to detail, and communicating complex 
-              ideas in understandable, relatable ways. I am excited by lifelong 
-              learning and currently seeking opportunities to expand and strengthen 
-              my engineering toolkit.
+              Chicago based, Full-Stack Software Engineer, I am a curious puzzle solver 
+              with a diverse background in Philosophy, Graphic Design, and team management. 
+              As a lifelong learner, I consider myself a versatile generalist with strong critical 
+              thinking and communication skills. My superpower is crafting direct relatable ways to 
+              communicate complex concepts across disciplines. Currently, I am seeking opportunities 
+              where I can apply my skills towards information design and build reusable, 
+              data-driven solutions to human problems. 
               </div>
               <h1>Tech Skills</h1>
                 <div id="skillz">
