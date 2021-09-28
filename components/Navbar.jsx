@@ -13,12 +13,14 @@ export default function Navbar() {
                 <a>Skills</a>
             </Link> */}
             <Link href='#projects'>
-                <a>Projects</a>
+                <a>Engineering Projects</a>
             </Link>
             <Link href='#contact'>
                 <a>Contact</a>
             </Link>
-
+            <Link href='/gallery'>
+                <a target="_blank" rel="noopener noreferrer">Artwork</a>
+            </Link>
 
         </nav>
     )
