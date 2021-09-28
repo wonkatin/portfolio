@@ -13,7 +13,7 @@ export default function Home() {
                     <title>Sarah Marie Coogan</title>
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
-                <div className="container" id="home">
+                <div className="container secondary" id="home">
                     <div className="name-blast">Sarah Marie Coogan</div>
                     <p className="job-title">Software Engineer</p>
                     <div className="hello-world">
@@ -25,12 +25,12 @@ export default function Home() {
                     where I can apply my skills towards information design and build reusable, 
                     data-driven solutions to human problems. 
                     </div>
-                </div>
-                <h1>Tech Skills</h1>
-                <div id="skillz">
-                    Javascript, React.js, CSS, HTML, D3.js, Node.js, Express.js, 
-                    Python, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, 
-                    Axios, Next.js, EJS, Bootstrap, Skeleton, Heroku, Git, GitHub
+                    <h1>Tech Skills</h1>
+                    <div id="skillz">
+                        Javascript, React.js, CSS, HTML, D3.js, Node.js, Express.js, 
+                        Python, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, 
+                        Axios, Next.js, EJS, Bootstrap, Skeleton, Heroku, Git, GitHub
+                    </div>
                 </div>
                 {/* <div className="container secondary" >
                     <h1>Tech Skills</h1>
