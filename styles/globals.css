@@ -214,17 +214,17 @@ div {
   .name-blast{
     font-size: 3rem;
   }
-  /* .job-title {
-    font-size: 1rem;
-  } */
+
 }
 @media (max-width: 539px) {
-  .secondary {
-    padding-top: 136px
+  #projects {
+    padding-top: 120px
+  }
+  #contact {
+    padding-top: 120px
   }
   nav a {
     padding-top: 10px;
-    /* padding-bottom: 10px */
   }
 }
 
