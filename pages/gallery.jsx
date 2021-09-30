@@ -45,20 +45,19 @@ export default function Gallery() {
             <div className="gallery">
                 <div className="navigation-wrapper">
                     {slider && (
-                      <>
+                      <div>
                         <ArrowLeft
                           onClick={(e) => e.stopPropagation() || slider.prev()}
                         />
                         {/* <ArrowRight
                           onClick={(e) => e.stopPropagation() || slider.next()}
                         /> */}
-                      </>
+                      </div>
                     )}
                     <div ref={sliderRef} className="keen-slider">
                         <div className="keen-slider__slide">
                             <Image
                                 loading="eager"
-                                layout="intrinsic"
                                 className="flyer"
                                 src='/../public/artwork/design/0.jpg'
                                 alt=""
@@ -258,14 +257,14 @@ export default function Gallery() {
                         </div>
                     </div>
                     {slider && (
-                      <>
+                      <div>
                         {/* <ArrowLeft
                           onClick={(e) => e.stopPropagation() || slider.prev()}
                         /> */}
                         <ArrowRight
                           onClick={(e) => e.stopPropagation() || slider.next()}
                         />
-                      </>
+                      </div>
                     )}
                 </div>
             </div>
