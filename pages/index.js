@@ -2,11 +2,11 @@ import Navbar from '../components/Navbar'
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
-// import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
     return (
-        <div>
+        <div className="home">
             <Navbar />
             <div className="container">
                 <Head>
