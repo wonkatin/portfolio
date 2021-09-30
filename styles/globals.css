@@ -177,7 +177,6 @@ div {
   /* max-height: 500px; */
   max-width: 500px;
   /* display: flex; */
-
 }
 /* picture div */
 .keen-slider__slide {
@@ -187,9 +186,6 @@ div {
   justify-content: center;
   /* max-height: 100%; */
   max-width: 100%;
-}
-.flyer {
-  
 }
 .arrow {
   width: 30px;
@@ -266,9 +262,6 @@ div {
     font-size: 3rem;
   }
 }
-/* @media (max-width: 600px) {
-
-} */
 @media (max-width: 560px) {
   .gallery {
     margin-top: 100px
