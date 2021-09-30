@@ -12,9 +12,9 @@ export default function Navbar() {
             <Link href='/#contact'>
                 <a>Contact</a>
             </Link>
-            <Link href='/gallery'>
+            {/* <Link href='/gallery'>
                 <a>Artwork</a>
-            </Link>
+            </Link> */}
 
         </nav>
     )
