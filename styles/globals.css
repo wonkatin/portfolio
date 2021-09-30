@@ -5,7 +5,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
 .home {
   background-color: hotpink;
   display: flex;
@@ -56,7 +55,6 @@ nav a {
 div {
   letter-spacing: 1px;
 }
-
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -73,7 +71,6 @@ div {
 .extraGreen {
   color: chartreuse;
 }
-
 .name-blast{
   font-size: 10rem;
   font-weight: bold;
@@ -160,50 +157,60 @@ div {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  
 }
 .gallery {
-  margin-top: 70px
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.navigation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  /* max-height: 550px; */
+  max-width: 550px;
+}
+/* div all pics live inside of */
+.keen-slider {
+  /* max-height: 500px; */
+  max-width: 500px;
+  /* display: flex; */
+
+}
+/* picture div */
 .keen-slider__slide {
   background: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* font-size: 50px;
-  color: #fff;
-  font-weight: 500; */
-  height: 400px;
+  /* max-height: 100%; */
+  max-width: 100%;
 }
-
-.navigation-wrapper {
-  position: relative;
+.flyer {
+  
 }
-
 .arrow {
   width: 30px;
   height: 30px;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  /* top: 50%; */
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   fill: hotpink;
   cursor: pointer;
+  /* margin: 10px; */
 }
-
 .arrow--left {
-  left: 5px;
+  left: -5px;
 }
-
 .arrow--right {
-  left: auto;
+  left: 5px;
   right: 5px;
 }
 
-/* .arrow--disabled {
-  fill: rgba(0, 0, 0, 0.5);
-} */
-
+/* RESPONSIVE DESIGN */
 @media (max-width: 1600px) {
   .name-blast{
     font-size: 7rem;
@@ -259,7 +266,13 @@ div {
     font-size: 3rem;
   }
 }
-@media (max-width: 539px) {
+/* @media (max-width: 600px) {
+
+} */
+@media (max-width: 560px) {
+  .gallery {
+    margin-top: 100px
+  }
   #projects {
     padding-top: 120px
   }

@@ -5,11 +5,10 @@ import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 
 function ArrowLeft(props) {
-    const disabled = props.disabled ? " arrow--disabled" : ""
     return (
       <svg
         onClick={props.onClick}
-        className={"arrow arrow--left" + disabled}
+        className="arrow arrow--left"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
@@ -19,11 +18,10 @@ function ArrowLeft(props) {
 }
   
 function ArrowRight(props) {
-    const disabled = props.disabled ? " arrow--disabled" : ""
     return (
       <svg
         onClick={props.onClick}
-        className={"arrow arrow--right" + disabled}
+        className="arrow arrow--right"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
@@ -46,46 +44,227 @@ export default function Gallery() {
             <Navbar />
             <div className="gallery">
                 <div className="navigation-wrapper">
+                    {slider && (
+                      <div>
+                        <ArrowLeft
+                          onClick={(e) => e.stopPropagation() || slider.prev()}
+                        />
+                        {/* <ArrowRight
+                          onClick={(e) => e.stopPropagation() || slider.next()}
+                        /> */}
+                      </div>
+                    )}
                     <div ref={sliderRef} className="keen-slider">
                         <div className="keen-slider__slide">
                             <Image
                                 loading="eager"
-                                // className="pic"
+                                className="flyer"
                                 src='/../public/artwork/design/0.jpg'
-                                // alt='a picture of Kitchen Sink app, an app that searches for recipes'
-                                height="788"
-                                width="600"
+                                alt=""
+                                height="500"
+                                width="386"
                             />
                         </div>
-                        <div className="keen-slider__slide">2</div>
-                        <div className="keen-slider__slide">3</div>
-                        <div className="keen-slider__slide">4</div>
-                        <div className="keen-slider__slide">5</div>
-                        <div className="keen-slider__slide">6</div>
-                        <div className="keen-slider__slide">7</div>
-                        <div className="keen-slider__slide">8</div>
-                        <div className="keen-slider__slide">9</div>
-                        <div className="keen-slider__slide">10</div>
-                        <div className="keen-slider__slide">11</div>
-                        <div className="keen-slider__slide">12</div>
-                        <div className="keen-slider__slide">13</div>
-                        <div className="keen-slider__slide">14</div>
-                        <div className="keen-slider__slide">15</div>
-                        <div className="keen-slider__slide">16</div>
-                        <div className="keen-slider__slide">6</div>
-                        <div className="keen-slider__slide">6</div>
-                        <div className="keen-slider__slide">6</div>
-                        <div className="keen-slider__slide">6</div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/1.jpg'
+                                alt=""
+                                height="411"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/2.jpg'
+                                alt=""
+                                height="500"
+                                width="326"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/3.jpg'
+                                alt=""
+                                height="500"
+                                width="317"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/4.jpg'
+                                alt=""
+                                height="500"
+                                width="370"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/5.jpg'
+                                alt=""
+                                height="351"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/6.jpg'
+                                alt=""
+                                height="500"
+                                width="269"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/7.jpg'
+                                alt=""
+                                height="243"
+                                width="400"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/8.jpg'
+                                alt=""
+                                height="374"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/9.jpg'
+                                alt=""
+                                height="304"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/10.jpg'
+                                alt=""
+                                height="389"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/11.jpg'
+                                alt=""
+                                height="500"
+                                width="324"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/12.jpg'
+                                alt=""
+                                height="443"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/13.jpg'
+                                alt=""
+                                height="385"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/14.jpg'
+                                alt=""
+                                height="500"
+                                width="326"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/15.jpg'
+                                alt=""
+                                height="500"
+                                width="470"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/16.jpg'
+                                alt=""
+                                height="500"
+                                width="363"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/17.jpg'
+                                alt=""
+                                height="500"
+                                width="383"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/18.jpg'
+                                alt=""
+                                height="387"
+                                width="500"
+                            />
+                        </div>
+                        <div className="keen-slider__slide">
+                            <Image
+                                loading="eager"
+                                className="flyer"
+                                src='/../public/artwork/design/19.jpg'
+                                alt=""
+                                height="500"
+                                width="325"
+                            />
+                        </div>
                     </div>
                     {slider && (
-                      <>
-                        <ArrowLeft
+                      <div>
+                        {/* <ArrowLeft
                           onClick={(e) => e.stopPropagation() || slider.prev()}
-                        />
+                        /> */}
                         <ArrowRight
                           onClick={(e) => e.stopPropagation() || slider.next()}
                         />
-                      </>
+                      </div>
                     )}
                 </div>
             </div>
