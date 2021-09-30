@@ -59,7 +59,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/0.png'
+                                src='/artwork/design/0.jpg'
                                 alt=""
                                 height="500"
                                 width="386"
@@ -69,7 +69,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/1.png'
+                                src='/artwork/design/1.jpg'
                                 alt=""
                                 height="411"
                                 width="500"
@@ -79,7 +79,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/2.jpg'
+                                src='/artwork/design/2.jpg'
                                 alt=""
                                 height="500"
                                 width="326"
@@ -89,7 +89,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/3.jpg'
+                                src='/artwork/design/3.jpg'
                                 alt=""
                                 height="500"
                                 width="317"
@@ -99,7 +99,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/4.jpg'
+                                src='/artwork/design/4.jpg'
                                 alt=""
                                 height="500"
                                 width="370"
@@ -109,7 +109,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/5.jpg'
+                                src='/artwork/design/5.jpg'
                                 alt=""
                                 height="351"
                                 width="500"
@@ -119,7 +119,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/6.jpg'
+                                src='/artwork/design/6.jpg'
                                 alt=""
                                 height="500"
                                 width="269"
@@ -129,7 +129,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/7.jpg'
+                                src='/artwork/design/7.jpg'
                                 alt=""
                                 height="243"
                                 width="400"
@@ -139,7 +139,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/8.jpg'
+                                src='/artwork/design/8.jpg'
                                 alt=""
                                 height="374"
                                 width="500"
@@ -149,7 +149,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/9.jpg'
+                                src='/artwork/design/9.jpg'
                                 alt=""
                                 height="304"
                                 width="500"
@@ -159,7 +159,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/10.jpg'
+                                src='/artwork/design/10.jpg'
                                 alt=""
                                 height="389"
                                 width="500"
@@ -169,7 +169,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/11.jpg'
+                                src='/artwork/design/11.jpg'
                                 alt=""
                                 height="500"
                                 width="324"
@@ -179,7 +179,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/12.jpg'
+                                src='/artwork/design/12.jpg'
                                 alt=""
                                 height="443"
                                 width="500"
@@ -189,7 +189,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/13.jpg'
+                                src='/artwork/design/13.jpg'
                                 alt=""
                                 height="385"
                                 width="500"
@@ -199,7 +199,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/14.jpg'
+                                src='/artwork/design/14.jpg'
                                 alt=""
                                 height="500"
                                 width="326"
@@ -209,7 +209,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/15.jpg'
+                                src='/artwork/design/15.jpg'
                                 alt=""
                                 height="500"
                                 width="470"
@@ -219,7 +219,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/16.jpg'
+                                src='/artwork/design/16.jpg'
                                 alt=""
                                 height="500"
                                 width="363"
@@ -229,7 +229,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/17.jpg'
+                                src='/artwork/design/17.jpg'
                                 alt=""
                                 height="500"
                                 width="383"
@@ -239,7 +239,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/18.jpg'
+                                src='/artwork/design/18.jpg'
                                 alt=""
                                 height="387"
                                 width="500"
@@ -249,7 +249,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/19.jpg'
+                                src='/artwork/design/19.jpg'
                                 alt=""
                                 height="500"
                                 width="325"
