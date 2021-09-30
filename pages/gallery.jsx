@@ -59,7 +59,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/0.jpg'
+                                src='/../public/artwork/design/0.png'
                                 alt=""
                                 height="500"
                                 width="386"
@@ -69,7 +69,7 @@ export default function Gallery() {
                             <Image
                                 loading="eager"
                                 className="flyer"
-                                src='/../public/artwork/design/1.jpg'
+                                src='/../public/artwork/design/1.png'
                                 alt=""
                                 height="411"
                                 width="500"
