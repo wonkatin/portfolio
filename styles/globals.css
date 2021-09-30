@@ -160,50 +160,56 @@ div {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  
 }
 .gallery {
-  margin-top: 70px
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.navigation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* div all pics live inside of */
+.keen-slider {
+  max-height: 500px;
+  max-width: 500px;
+  /* display: flex; */
+
+}
+/* picture div */
 .keen-slider__slide {
   background: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* font-size: 50px;
-  color: #fff;
-  font-weight: 500; */
-  height: 400px;
-}
 
-.navigation-wrapper {
-  position: relative;
 }
-
+.flyer {
+  
+}
 .arrow {
   width: 30px;
   height: 30px;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  /* top: 50%; */
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   fill: hotpink;
   cursor: pointer;
 }
-
 .arrow--left {
-  left: 5px;
+  left: -5px;
+  /* right: px; */
 }
-
 .arrow--right {
-  left: auto;
+  left: 5px;
   right: 5px;
 }
 
-/* .arrow--disabled {
-  fill: rgba(0, 0, 0, 0.5);
-} */
-
+/* RESPONSIVE DESIGN */
 @media (max-width: 1600px) {
   .name-blast{
     font-size: 7rem;
@@ -259,7 +265,10 @@ div {
     font-size: 3rem;
   }
 }
-@media (max-width: 539px) {
+@media (max-width: 560px) {
+  .gallery {
+    margin-top: 100px
+  }
   #projects {
     padding-top: 120px
   }
