@@ -2,15 +2,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  overflow-y:scroll;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
 .home {
   background-color: hotpink;
   display: flex;
   flex-direction: column;
-  max-width: 100%
+  width: 100%;
 }
 a {
   color: inherit;
@@ -32,7 +32,6 @@ h2 {
 }
 nav {
   padding-bottom: 15px;
-  width: 100%
 }
 nav a {
   margin-right: 15px;
@@ -46,6 +45,7 @@ nav a {
   position: fixed;
   top: 0;
   z-index: 9999;
+  width: 100%;
   /* max-width: 100vw; */
   display: flex;
   justify-content: center;
@@ -358,10 +358,11 @@ div {
 }
 @media (max-width: 499px) {
   .container{
-    margin-left: 10px; 
+    margin-left: 5px; 
   }
   .name-blast{
     font-size: 2rem;
+    font-weight: 900;
     align-self: flex-start;
   }
   .job-title {
@@ -370,11 +371,9 @@ div {
   }
   .hello-world {
     align-self: flex-start;
-    /* width: 100% */
   }
   #skillz{
     align-self: flex-start;
-    /* width: 100% */
   }
   h1 {
     align-self: flex-start;
@@ -390,27 +389,15 @@ div {
   ul {
     padding-left: 0;
   }
-  /* .img {
-    margin-left: 0;
-    width: 90%;
-  }
-  .project-details {
-    width: 90%
-  }
-  .links {
-    
-    justify-content: space-between;
-  } */
 }
 @media (max-width: 360px) {
+  /* .name-blast {
+    font-size: 1rem
+  } */
   .stay-put {
     font-size: 1rem;
   }
   .email {
     font-size: .75rem;
   }
-  /* nav a {
-    margin-left: 10px;
-    margin-right: 20px;
-  } */
 }
