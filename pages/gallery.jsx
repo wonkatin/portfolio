@@ -58,11 +58,12 @@ export default function Gallery() {
                         <div className="keen-slider__slide">
                             <Image
                                 loading="eager"
+                                layout="intrinsic"
                                 className="flyer"
                                 src='/../public/artwork/design/0.jpg'
                                 alt=""
-                                height="788"
-                                width="600"
+                                height="500"
+                                width="386"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -71,8 +72,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/1.jpg'
                                 alt=""
-                                height="657"
-                                width="800"
+                                height="411"
+                                width="500"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -81,8 +82,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/2.jpg'
                                 alt=""
-                                height="614"
-                                width="400"
+                                height="500"
+                                width="326"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -91,8 +92,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/3.jpg'
                                 alt=""
-                                height="1263"
-                                width="800"
+                                height="500"
+                                width="317"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -101,8 +102,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/4.jpg'
                                 alt=""
-                                height="1082"
-                                width="800"
+                                height="500"
+                                width="370"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -111,8 +112,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/5.jpg'
                                 alt=""
-                                height="701"
-                                width="1000"
+                                height="351"
+                                width="500"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -121,8 +122,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/6.jpg'
                                 alt=""
-                                height="931"
-                                width="500"
+                                height="500"
+                                width="269"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -141,8 +142,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/8.jpg'
                                 alt=""
-                                height="747"
-                                width="1000"
+                                height="374"
+                                width="500"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -161,8 +162,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/10.jpg'
                                 alt=""
-                                height="777"
-                                width="1000"
+                                height="389"
+                                width="500"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -171,8 +172,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/11.jpg'
                                 alt=""
-                                height="1545"
-                                width="1000"
+                                height="500"
+                                width="324"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -181,8 +182,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/12.jpg'
                                 alt=""
-                                height="682"
-                                width="769"
+                                height="443"
+                                width="500"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -191,8 +192,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/13.jpg'
                                 alt=""
-                                height="770"
-                                width="1000"
+                                height="385"
+                                width="500"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -201,8 +202,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/14.jpg'
                                 alt=""
-                                height="1535"
-                                width="1000"
+                                height="500"
+                                width="326"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -211,8 +212,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/15.jpg'
                                 alt=""
-                                height="1063"
-                                width="1000"
+                                height="500"
+                                width="470"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -221,8 +222,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/16.jpg'
                                 alt=""
-                                height="1377"
-                                width="1000"
+                                height="500"
+                                width="363"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -231,8 +232,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/17.jpg'
                                 alt=""
-                                height="1304"
-                                width="1000"
+                                height="500"
+                                width="383"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -241,8 +242,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/18.jpg'
                                 alt=""
-                                height="774"
-                                width="1000"
+                                height="387"
+                                width="500"
                             />
                         </div>
                         <div className="keen-slider__slide">
@@ -251,8 +252,8 @@ export default function Gallery() {
                                 className="flyer"
                                 src='/../public/artwork/design/19.jpg'
                                 alt=""
-                                height="1537"
-                                width="1000"
+                                height="500"
+                                width="325"
                             />
                         </div>
                     </div>
