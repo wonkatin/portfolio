@@ -178,13 +178,14 @@ img {
 .navigation-wrapper {
   margin: 15px;
   position: relative;
-  max-width: 500px;
+  width: 500px;
 }
 /* picture div */
 .keen-slider__slide {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* I think height has to be set */
   height: 500px
 }
 .arrow {
@@ -204,6 +205,14 @@ img {
   .name-blast{
     font-size: 7rem;
     font-weight: bold
+  }
+}
+@media (max-width: 1200px){
+  .navigation-wrapper {
+    width: 450px;
+  }
+  .keen-slider__slide {
+    height: 450px;
   }
 }
 @media (max-width: 1150px) {
@@ -241,6 +250,28 @@ img {
   .links {
     justify-content: space-around;
   }
+  .navigation-wrapper {
+    width: 400px;
+  }
+  .keen-slider__slide {
+    height: 400px;
+  }
+}
+@media (max-width: 1000px){
+  .navigation-wrapper {
+    width: 350px;
+  }
+  .keen-slider__slide {
+    height: 350px;
+  }
+}
+@media (max-width: 900px){
+  .navigation-wrapper {
+    width: 300px;
+  }
+  .keen-slider__slide {
+    height: 300px;
+  }
 }
 @media (max-width: 800px) {
   .name-blast {
@@ -248,6 +279,15 @@ img {
   }
   .job-title {
     font-size: 2rem;
+  }
+  .gallery {
+    flex-direction: column;
+  }
+  .navigation-wrapper {
+    width: 400px;
+  }
+  .keen-slider__slide {
+    height: 400px;
   }
 }
 @media (max-width: 650px) {
@@ -302,15 +342,50 @@ img {
   ul {
     padding-left: 0;
   }
+  .navigation-wrapper {
+    width: 350px;
+  }
+  .keen-slider__slide {
+    height: 350px;
+  }
+}
+@media (max-width: 450px) {
+  .navigation-wrapper {
+    width: 300px;
+  }
+  .keen-slider__slide {
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .navigation-wrapper {
+    width: 250px;
+  }
+  .keen-slider__slide {
+    height: 250px;
+  }
 }
 @media (max-width: 360px) {
   /* .name-blast {
     font-size: 1rem
   } */
+  .gallery {
+    margin-top: 120px
+  }
   .stay-put {
     font-size: 1rem;
   }
   .email {
     font-size: .75rem;
+  }
+  .navigation-wrapper {
+    width: 200px;
+  }
+  .keen-slider__slide {
+    height: 200px;
+  }
+  .arrow {
+    width: 20px;
+    height: 20px
   }
 }
