@@ -151,6 +151,10 @@ div {
 }
 
 /* GALLERY STYLES */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
 .main-gallery {
   background-color: black;
   display: flex;
@@ -161,22 +165,29 @@ div {
 .gallery {
   margin-top: 70px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
-.navigation-wrapper {
+.not-gallery {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.navigation-wrapper {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   margin: 15px;
-  /* max-height: 550px; */
-  max-width: 550px;
+  position: relative;
+  /* background: black; */
 }
 /* div all pics live inside of */
 .keen-slider {
-  /* max-height: 500px; */
+  max-height: 500px;
   max-width: 500px;
-  /* display: flex; */
+  display: flex;
+  /* background: black; */
 }
 /* picture div */
 .keen-slider__slide {
@@ -184,8 +195,9 @@ div {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* max-height: 100%; */
-  max-width: 100%;
+  max-height: 500px;
+  max-width: 500px;
+  /* padding: 5px */
 }
 .arrow {
   width: 30px;
