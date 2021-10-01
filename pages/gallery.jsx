@@ -10,7 +10,7 @@ export default function Gallery() {
             <Navbar />
             <div className="gallery">
                 <Flyers />
-                {/* <Flyers /> */}
+                <Flyers />
             </div>
         </div>
     )

@@ -154,6 +154,7 @@ div {
 img {
   max-height: 100%;
   max-width: 100%;
+  background-color: black;
 }
 .main-gallery {
   background-color: black;
@@ -163,7 +164,7 @@ img {
   min-height: 100vh;
 }
 .gallery {
-  margin-top: 70px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -175,29 +176,16 @@ img {
   justify-content: center;
 }
 .navigation-wrapper {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   margin: 15px;
   position: relative;
-  /* background: black; */
-}
-/* div all pics live inside of */
-.keen-slider {
-  max-height: 500px;
   max-width: 500px;
-  display: flex;
-  /* background: black; */
 }
 /* picture div */
 .keen-slider__slide {
-  background: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 500px;
-  max-width: 500px;
-  /* padding: 5px */
+  height: 500px
 }
 .arrow {
   width: 30px;
@@ -209,13 +197,6 @@ img {
   fill: hotpink;
   cursor: pointer;
   /* margin: 10px; */
-}
-.arrow--left {
-  left: -5px;
-}
-.arrow--right {
-  left: 5px;
-  right: 5px;
 }
 
 /* RESPONSIVE DESIGN */

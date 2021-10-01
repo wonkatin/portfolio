@@ -40,16 +40,16 @@ export default function Flyers() {
   })
     return (   
         <div className="not-gallery">
-                {slider && (
-                  <div>
-                    <ArrowLeft
-                      onClick={(e) => e.stopPropagation() || slider.prev()}
-                    />
-                    {/* <ArrowRight
-                      onClick={(e) => e.stopPropagation() || slider.next()}
-                    /> */}
-                  </div>
-                )}
+            {slider && (
+              <div>
+                <ArrowLeft
+                  onClick={(e) => e.stopPropagation() || slider.prev()}
+                />
+                {/* <ArrowRight
+                  onClick={(e) => e.stopPropagation() || slider.next()}
+                /> */}
+              </div>
+            )}
             <div className="navigation-wrapper">
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide">
@@ -114,16 +114,16 @@ export default function Flyers() {
                     </div>
                 </div>
             </div>
-                {slider && (
-                  <div>
-                    {/* <ArrowLeft
-                      onClick={(e) => e.stopPropagation() || slider.prev()}
-                    /> */}
-                    <ArrowRight
-                      onClick={(e) => e.stopPropagation() || slider.next()}
-                    />
-                  </div>
-                )}
+            {slider && (
+              <div>
+                {/* <ArrowLeft
+                  onClick={(e) => e.stopPropagation() || slider.prev()}
+                /> */}
+                <ArrowRight
+                  onClick={(e) => e.stopPropagation() || slider.next()}
+                />
+              </div>
+            )}
         </div>
     )
 }
