@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar'
-import Flyers from '../components/flyers'
+import Flyers from '../components/Flyers'
 
 
 
