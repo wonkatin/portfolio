@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar'
 import Flyers from '../components/Flyers'
-
+import Collages from '../components/Collages'
 
 
 export default function Gallery() {
@@ -9,7 +9,7 @@ export default function Gallery() {
         <div className="main-gallery">
             <Navbar />
             <div className="gallery">
-                <Flyers />
+                <Collages />
                 <Flyers />
             </div>
         </div>
