@@ -53,61 +53,175 @@ export default function Collages() {
             <div className="navigation-wrapper">
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart0.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart0.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart0.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart1.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart1.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart1.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart2.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart2.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart2.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart3.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart3.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart3.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart4.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart4.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart4.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart5.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart5.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart5.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart6.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart6.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart6.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart7.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart7.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart7.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart8.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart8.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart8.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart9.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart9.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart9.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart10.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart10.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart10.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart11.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart11.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart11.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart12.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart12.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart12.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart13.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart13.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart13.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart14.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart14.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart14.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart15.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart15.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart15.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart16.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart16.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart16.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart17.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart17.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart17.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/collages/fineart18.png' alt="" />
+                      <Image
+                        src="/artwork/collages/fineart18.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/collages/fineart18.png' alt="" /> */}
                     </div>
                 </div>
             </div>
