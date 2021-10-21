@@ -3,6 +3,7 @@ import React from 'react'
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 
+
 function ArrowLeft(props) {
     return (
       <svg
@@ -53,64 +54,184 @@ export default function Flyers() {
             <div className="navigation-wrapper">
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image0.png' alt="" />
+                      <Image
+                        src="/artwork/design/image0.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image0.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image1.png' alt="" />
+                      <Image
+                        src="/artwork/design/image1.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image1.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image2.png' alt="" />
+                      <Image
+                        src="/artwork/design/image2.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image2.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image3.png' alt="" />
+                      <Image
+                        src="/artwork/design/image3.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image3.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image4.png' alt="" />
+                      <Image
+                        src="/artwork/design/image4.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image4.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image5.png' alt="" />
+                      <Image
+                        src="/artwork/design/image5.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image5.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image6.png' alt="" />
+                      <Image
+                        src="/artwork/design/image6.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image6.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image7.png' alt="" />
+                      <Image
+                        src="/artwork/design/image7.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image7.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image8.png' alt="" />
+                      <Image
+                        src="/artwork/design/image8.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image8.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image9.png' alt="" />
+                      <Image
+                        src="/artwork/design/image9.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image9.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image10.png' alt="" />
+                      <Image
+                        src="/artwork/design/image10.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image10.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image11.png' alt="" />
+                      <Image
+                        src="/artwork/design/image11.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image11.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image12.png' alt="" />
+                      <Image
+                        src="/artwork/design/image12.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image12.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image13.png' alt="" />
+                      <Image
+                        src="/artwork/design/image13.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image13.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image14.png' alt="" />
+                      <Image
+                        src="/artwork/design/image14.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image14.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image15.png' alt="" />
+                      <Image
+                        src="/artwork/design/image15.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image15.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image16.png' alt="" />
+                      <Image
+                        src="/artwork/design/image16.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image16.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image17.png' alt="" />
+                      <Image
+                        src="/artwork/design/image17.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image17.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image18.png' alt="" />
+                      <Image
+                        src="/artwork/design/image18.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image18.png' alt="" /> */}
                     </div>
                     <div className="keen-slider__slide">
-                        <img src='/artwork/design/image19.png' alt="" />
+                      <Image
+                        src="/artwork/design/image19.png"
+                        alt=""
+                        width="500"
+                        height="500"
+                      />
+                        {/* <img src='/artwork/design/image19.png' alt="" /> */}
                     </div>
                 </div>
             </div>
