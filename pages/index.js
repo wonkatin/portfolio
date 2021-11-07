@@ -17,15 +17,15 @@ export default function Home() {
                     <div className="name-blast">Sarah Marie Coogan</div>
                     <p className="job-title">Software Engineer</p>
                     <div className="hello-world">
-                    Chicago based, Full-Stack Software Engineer, I am a curious puzzle solver 
-                    with a diverse background in Philosophy, Graphic Design, and Team Management. 
+                    As a Chicago based, Full-Stack Software Engineer, I am a curious puzzle solver 
+                    with a diverse background in Philosophy, Visual Arts, and Team Management. 
                     As a lifelong learner, I consider myself a versatile generalist with strong critical 
                     thinking and communication skills. My superpower is crafting direct relatable ways to 
                     communicate complex concepts across disciplines. Currently, I am seeking opportunities 
                     where I can apply my skills towards information design and build reusable, 
                     data-driven solutions to human problems. 
                     </div>
-                    <h1>Tech Skills</h1>
+                    <h1 id="skillz-header">Tech Skills</h1>
                     <div id="skillz">
                         Javascript, React.js, CSS, HTML, D3.js, Node.js, Express.js, 
                         Python, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, 
