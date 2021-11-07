@@ -54,7 +54,7 @@ nav a {
   /* max-width: 100vw; */
   display: flex;
   justify-content: center;
-  background-color: #0A030C;
+  background-color: black;
   color: black;
   flex-wrap: wrap;
 }
@@ -274,7 +274,7 @@ img {
   .skillz{
     width: 90%
   }
-  .content {
+  /* .content {
     flex-direction: column;
     align-items: center;
   }
@@ -291,7 +291,7 @@ img {
     margin-right: 0;
     padding-top: 20px;
     width: 90%
-  }
+  } */
   .me {
     margin: 0px
   }
@@ -311,6 +311,24 @@ img {
   }
   .keen-slider__slide {
     height: 350px;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 90%;
+  }
+  .project-name {
+    text-align: left;
+  }
+  .project-details {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
+    width: 90%
   }
 }
 @media (max-width: 900px){
