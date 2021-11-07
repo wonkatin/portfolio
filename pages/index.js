@@ -242,7 +242,7 @@ export default function Home() {
                                     </Link>
                                 </div>
                                 <div className="bumper">
-                                    <Link href='https://docs.google.com/document/d/1JEYn8dXct0QIjwr-RG9OlZKJXJK3is1JVdpGVOqEF6s/edit?usp=sharing'>
+                                    <Link href='https://docs.google.com/document/d/1dZbu0Wkv6B0CnJ_sa5j4cICLQsPSwV_g/edit?usp=sharing&ouid=104952848798133803158&rtpof=true&sd=true'>
                                         <a target="_blank" rel="noopener noreferrer">Resume</a>
                                     </Link>
                                 </div>
