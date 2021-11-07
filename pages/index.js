@@ -26,10 +26,31 @@ export default function Home() {
                     data-driven solutions to human problems. 
                     </div>
                     <h1 id="skillz-header">Tech Skills</h1>
-                    <div id="skillz">
-                        Javascript, React.js, CSS, HTML, D3.js, Node.js, Express.js, 
-                        Python, SQL, PostgreSQL, Sequelize, MongoDB, Mongoose, 
-                        Axios, Next.js, EJS, Bootstrap, Skeleton, Heroku, Git, GitHub
+                    <div className="skillz">
+                        <span className="skill">JavaScript</span>
+                        <span className="skill">React.js</span>
+                        <span className="skill">CSS</span>
+                        <span className="skill">HTML5</span>
+                        <span className="skill">D3.js</span>
+                        <span className="skill">Node.js</span>
+                        <span className="skill">Express.js</span>
+                        <span className="skill">SQL</span>
+                        
+                        <span className="skill">PostgreSQL</span>
+                        <span className="skill">Sequelize</span>
+                        <span className="skill">MongoDB</span>
+                        <span className="skill">Mongoose</span>
+                        <span className="skill">Axios</span>
+                        <span className="skill">Next.js</span>
+                        <span className="skill">EJS</span>
+                        
+                        <span className="skill">Python</span>
+                        <span className="skill">Typescript</span>
+                        <span className="skill">Bootstrap</span>
+                        <span className="skill">Skeleton</span>
+                        <span className="skill">Heroku</span>
+                        <span className="skill">Git</span>
+                        <span className="skill">GitHub</span>
                     </div>
                 </div>
                 {/* <div className="container secondary" >
