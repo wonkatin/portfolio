@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .home {
-  background-color: hotpink;
+  background-color: #0A030C;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -16,29 +16,35 @@ a {
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 1px;
-  text-shadow: 2px 2px 2px chartreuse;
+  /* text-shadow: 2px 2px 2px chartreuse; */
   font-size: 1.25rem;
   overflow: hidden;
+  padding: 3px 9px 3px 9px;
+  background-color: #22FFB6;
+  border-radius: 15px
 }
 a:hover {
   color: white;
 }
 h1 {
   letter-spacing: 1px;
+  color: #FD9EFB;
 }
 h2 {
   font-size: 1.5rem;
+  color: #22FFB6;
 }
 nav {
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
+  padding-top: 15px;
 }
 nav a {
   margin-right: 15px;
   margin-left: 15px;
-  padding-top: 15px;
-  /* padding-bottom: 15px; */
-  background-color: chartreuse;
-  text-shadow: 2px 2px 2px hotpink;
+  margin-bottom: 15px;
+  padding: 3px 9px 3px 9px;
+  background-color: #22FFB6;
+  border-radius: 15px
 }
 .stay-put {
   position: fixed;
@@ -48,7 +54,7 @@ nav a {
   /* max-width: 100vw; */
   display: flex;
   justify-content: center;
-  background-color: chartreuse;
+  background-color: #0A030C;
   color: black;
   flex-wrap: wrap;
 }
@@ -66,32 +72,38 @@ div {
 } 
 .secondary {
   justify-content: flex-start;
-  padding-top: 68px
-}
-.extraGreen {
-  color: chartreuse;
+  padding-top: 75px
 }
 .name-blast{
   font-size: 10rem;
   font-weight: bold;
-  margin-top: 68px
+  margin-top: 68px;
+  color: #FD9EFB
 }
 .job-title {
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 1px;
+  color: #FD9EFB
 }
 .hello-world {
   width: 50%;
   font-size: 1.25rem;
   line-height: 2rem;
   letter-spacing: 1px;
+  background-color: #22FFB6;
+  border-radius: 15px;
+  padding: 9px 18px 9px 18px;
+}
+#skillz-header {
+  color: #FD9EFB;
 }
 #skillz {
   width: 50%;
   font-size: 1.25rem;
   line-height: 2rem;
   letter-spacing: 1px;
+  color: #FD9EFB;
 }
 .content {
   max-width: 100vw;
@@ -138,16 +150,26 @@ div {
   margin-bottom: 20px;
   line-height: 1.5rem;
   font-size: 1.15rem;
+  background-color: #FD9EFB;
+  border-radius: 15px;
+  padding: 9px 18px 9px 18px;
 }
 .tech {
   line-height: 1.5rem;
   font-size: 1.15rem;
+  background-color: #FD9EFB;
+  border-radius: 15px;
+  padding: 9px 18px 9px 18px;
 }
 .bumper {
   margin-bottom: 20px;
 }
 .email {
   font-size: 1.15rem;
+  padding: 3px 9px 3px 9px;
+  color: #FD9EFB;
+  border-radius: 15px;
+  font-weight: bold;
 }
 
 /* GALLERY STYLES */
@@ -195,7 +217,7 @@ img {
   /* top: 50%; */
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  fill: hotpink;
+  fill: #FD9EFB;
   cursor: pointer;
   /* margin: 10px; */
 }
@@ -207,6 +229,12 @@ img {
     font-weight: bold
   }
 }
+@media (max-width: 1450px){
+  .description, .tech {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+}
 @media (max-width: 1200px){
   .navigation-wrapper {
     width: 450px;
@@ -214,6 +242,15 @@ img {
   .keen-slider__slide {
     height: 450px;
   }
+  .description, .tech {
+    font-size: .75rem;
+    line-height: 1rem;
+  }
+  .hello-world, #skillz {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
 }
 @media (max-width: 1150px) {
   .name-blast{
@@ -223,6 +260,7 @@ img {
   .hello-world {
     width: 90%
   }
+
   #skillz{
     width: 90%
   }
@@ -272,6 +310,9 @@ img {
   .keen-slider__slide {
     height: 300px;
   }
+  a {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 800px) {
   .name-blast {
@@ -305,9 +346,12 @@ img {
   #contact {
     padding-top: 120px
   }
-  nav a {
-    padding-top: 10px;
+  .description, .tech {
+    padding: 9px 9px 9px 9px;
   }
+  /* nav a {
+    padding-top: 10px;
+  } */
 }
 @media (max-width: 499px) {
   .container{
@@ -324,12 +368,16 @@ img {
   }
   .hello-world {
     align-self: flex-start;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 9px 9px 9px 9px;
   }
   #skillz{
     align-self: flex-start;
   }
   h1 {
     align-self: flex-start;
+
   }
   .content {
     align-items: flex-start;
@@ -387,5 +435,9 @@ img {
   .arrow {
     width: 20px;
     height: 20px
+  }
+  .hello-world, #skillz, a {
+    font-size: .75rem;
+    line-height: 1rem;
   }
 }
