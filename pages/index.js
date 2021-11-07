@@ -14,7 +14,7 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <div className="container secondary" id="home">
-                    <div className="name-blast">Sarah Marie Coogan</div>
+                    <div id="name-blast">Sarah Marie Coogan</div>
                     <p className="job-title">Software Engineer</p>
                     <div className="hello-world">
                     As a Chicago based, Full-Stack Software Engineer, I am a curious puzzle solver 
