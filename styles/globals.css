@@ -206,6 +206,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 .navigation-wrapper {
   margin: 15px;
