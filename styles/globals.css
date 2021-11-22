@@ -20,7 +20,7 @@ a {
   font-size: 1.25rem;
   overflow: hidden;
   padding: 3px 9px 3px 9px;
-  background-color: #22FFB6;
+  background-color: #8B54FE;
   border-radius: 15px
 }
 a:hover {
@@ -32,7 +32,7 @@ h1 {
 }
 h2 {
   font-size: 1.5rem;
-  color: #22FFB6;
+  color: #FD9EFB;
 }
 nav {
   /* padding-bottom: 15px; */
@@ -43,7 +43,7 @@ nav a {
   margin-left: 15px;
   margin-bottom: 15px;
   padding: 3px 9px 3px 9px;
-  background-color: #22FFB6;
+  background-color: #8B54FE;
   border-radius: 15px
 }
 .stay-put {
@@ -77,7 +77,7 @@ div {
 #name-blast{
   font-size: 10rem;
   font-weight: bold;
-  margin-top: 68px;
+  margin-top: 50px;
   color: #FD9EFB
 }
 .job-title {
@@ -160,14 +160,14 @@ div {
   margin-bottom: 20px;
   line-height: 1.5rem;
   font-size: 1.15rem;
-  background-color: #FD9EFB;
+  background-color: #22FFB6;
   border-radius: 15px;
   padding: 9px 18px 9px 18px;
 }
 .tech {
   line-height: 1.5rem;
   font-size: 1.15rem;
-  background-color: #FD9EFB;
+  background-color: #22FFB6;
   border-radius: 15px;
   padding: 9px 18px 9px 18px;
 }
@@ -177,7 +177,7 @@ div {
 .email {
   font-size: 1.15rem;
   padding: 3px 9px 3px 9px;
-  color: #FD9EFB;
+  color: #22FFB6;
   border-radius: 15px;
   font-weight: bold;
 }
