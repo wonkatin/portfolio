@@ -380,6 +380,9 @@ img {
   .keen-slider__slide {
     height: 400px;
   }
+  .gallery-container-left, .gallery-container-right  {
+    margin: 0 0 25px 0
+  }
   .skillz {
     font-size: .75rem;
     line-height: 1rem;
@@ -447,9 +450,9 @@ img {
   .arrow {
     display: none;
   }
-  .gallery-container-left, .gallery-container-right  {
+  /* .gallery-container-left, .gallery-container-right  {
     margin: 0 0 25px 0
-  }
+  } */
   .navigation-wrapper {
     width: 100%;
   }
