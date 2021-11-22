@@ -196,17 +196,23 @@ img {
   min-height: 100vh;
 }
 .gallery {
-  margin-top: 60px;
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.not-gallery {
+.gallery-container-left {
+  margin-right: 10px;
+  /* height: 100% */
+}
+.gallery-container-right {
+  margin-left: 10px;
+}
+.inner-gallery {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
 .navigation-wrapper {
   margin: 15px;
@@ -231,6 +237,29 @@ img {
   fill: #FD9EFB;
   cursor: pointer;
   /* margin: 10px; */
+}
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background: #c5c5c5;
+  border-radius: 50%;
+  margin: 0 6px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: #000;
 }
 
 /* RESPONSIVE DESIGN */
