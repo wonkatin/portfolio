@@ -40,7 +40,8 @@ export default function Flyers() {
     },
   })
     return (   
-        <div className="not-gallery">
+      <div className="gallery-container-right">
+        <div className="inner-gallery">
             {slider && (
               <div>
                 <ArrowLeft
@@ -246,5 +247,21 @@ export default function Flyers() {
               </div>
             )}
         </div>
+        {slider && (
+          <div className="dots">
+            {[...Array(slider.details().size).keys()].map((idx) => {
+              return (
+                <button
+                  key={idx}
+                  onClick={() => {
+                    slider.moveToSlideRelative(idx)
+                  }}
+                  className={"dot" + (currentSlide === idx ? " active" : "")}
+                />
+              )
+            })}
+          </div>
+        )}
+      </div>
     )
 }
